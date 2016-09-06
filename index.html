@@ -1,65 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<meta charset="utf-8">
-<title>Expenzing Expense Management System</title>
-<meta name="generator" content="Bootply" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href="css/bootstrap.min.css" rel="stylesheet"> 
-<!--[if lt IE 9]>
-			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-
-<link href="css/styles.css" rel="stylesheet">
-<link href="css/datepicker.css" rel="stylesheet">
-<link href="css/prettify.css" rel="stylesheet">
-<link href="css/timepicki.css" rel="stylesheet">
-<link href="select2/select2.css" rel="stylesheet"/>
-<link rel="stylesheet" href="css/jquery-ui.css" />
-<script src="js/jquery-1.8.2.js"></script>
-<script src="js/jquery-ui.js"></script>
-<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" src="js/jquery.min.js"></SCRIPT>
-<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" src="js/jquery.touchSwipe.min.js"></SCRIPT>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/appLib.js"></script>
-<script src="js/commonUtilities.js"></script>
-<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" src="js/index.js"></SCRIPT>
-<script src="js/supported_date.js"></script>
-<script src="js/prettify.js"></script>
-<script src="js/bootstrap-datepicker.js"></script>
-<script src="select2/select2.js"></script>
-<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" src="js/timepicki.js"></SCRIPT>
-<script src="http://1.255.255.188:8080/target/target-script-min.js#anonymous"></script>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Hanuman Chalisa</title>
 </head>
-<body onload="init();" >
-<!--login modal-->
-<div id="loginModal" class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-      <div class="modal-content clearfix">
-		  <div class="modal-header" id="mainHeader">
-				
-		  </div>
-		  <div class="modal-body clearfix" id="mainContainer">
-			  <div id="tab-content">
 
-            </div>
-		 </div>
- 
- 
-		  <div class="footer">
-			<p>&copy; Copyright 2015. All Rights Reserved.<br>
-			  Expenzing Expense Management System</p>
-		  </div>
-	  </div>
-   </div>
- </div>
+<body>
+    <div class="app">
+       
+        <div id="deviceready" class="blink">
+            <p class="event listening">Connecting to Device</p>
+            
+            <p class="event received">Device is Ready</p>
+        </div>
+		
+		
+		<div class="absolute">
+        <embed src="res/Hanuman_Chalisa.swf" width="480" height="800">
+        </div>
+		
+		<div id="mySidenav" class="sidenav">
+		<!-- <img src="logo.png" alt="Smiley face" height="138" width="150"> -->
+		<img src="logo.png" alt="DigitalHawk2016" style="align: right; width:150px; height:138px;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://www.facebook.com/digital15hawk/?ref=bookmarks">about</a>
+  <a href="https://play.google.com/store/apps/details?id=air.HanumanChalisaV1.A5">rate Us</a>
+  <a href="https://play.google.com/store/apps/developer?id=DigitalHawk2016">more apps</a>
+  <a href="digitalhawk2016@gmail.com">contact</a>
+</div>
 
-<!-- script references -->
+<span style="font-size:30px;cursor:pointer; position: absolute; color: #5e2902;
+    left: -120px; top: -280px;" onclick="openNav()">&#9776; Menu</span>
 
-<script src="cordova.js"></script>
 <script>
-app.initialize();
+function openNav() {
+    document.getElementById("mySidenav").style.width = "400px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
 </script>
+		
+		
+		
+        
+        
+        
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
 </body>
+
 </html>
