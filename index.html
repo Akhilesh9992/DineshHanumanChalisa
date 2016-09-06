@@ -15,20 +15,15 @@
 </head>
 
 <body>
-    <div class="app">
-       
-        <div id="deviceready" class="blink">
-            <p class="event listening">Connecting to Device</p>
-            
-            <p class="event received">Device is Ready</p>
-        </div>
-		
-		
-		<div class="absolute">
-        <embed src="res/Hanuman_Chalisa.swf" width="480" height="800">
-        </div>
-		
-		<div id="mySidenav" class="sidenav">
+<div>
+<object width="480" height="800">
+    <param name="movie" value="res/Hanuman_Chalisa.swf">
+    <embed src="res/Hanuman_Chalisa.swf" width="480" height="800">
+    </embed>
+</object>
+</div>
+
+<div id="mySidenav" class="sidenav">
 		<!-- <img src="logo.png" alt="Smiley face" height="138" width="150"> -->
 		<img src="logo.png" alt="DigitalHawk2016" style="align: right; width:150px; height:138px;">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -50,13 +45,7 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-		
-		
-		
-        
-        
-        
-    </div>
+
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
